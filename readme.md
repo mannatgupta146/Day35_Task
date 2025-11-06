@@ -1,4 +1,4 @@
-# Day 34 Task | Cohort 2.0
+# Day 35 Task | Cohort 2.0
 
 This file contains all the **JavaScript exercises and experiments** I completed as part of **Day 33** in **Sheryians Coding School Cohort 2.0**.  
 It focuses on **loops** and **conditional statements**, practiced through simple programs and logical exercises directly in the browser console.
