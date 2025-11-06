@@ -1,6 +1,17 @@
-// 13. Print numbers divisible by 7 from 1 to 50
-// Use modulo % and loop.
+// 15. Keep asking number until user enters an even number
+// Use while loop. Stop only if input is even.
+let tries = 0;
+let num = prompt("Enter a number");
+tries++
 
+while (Number(num) % 2 !== 0) {
+  if (num === null || num.trim() === "") {
+    console.error("Enter something!");
+    break;
+  }
+  num = prompt("Enter again (need even number)");
+  tries++;
+}
 
-// 14. Sum of all odd numbers from 1 to 30
-// Add only odd numbers. Print final sum.
+if (Number(num)% 2 === 0) console.log("Nice! Even number entered.");
+console.log(`Total tries: ${tries}`);
