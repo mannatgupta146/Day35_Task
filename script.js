@@ -1,17 +1,16 @@
-// 15. Keep asking number until user enters an even number
-// Use while loop. Stop only if input is even.
-let tries = 0;
-let num = prompt("Enter a number");
-tries++
 
-while (Number(num) % 2 !== 0) {
-  if (num === null || num.trim() === "") {
-    console.error("Enter something!");
-    break;
-  }
-  num = prompt("Enter again (need even number)");
-  tries++;
-}
 
-if (Number(num)% 2 === 0) console.log("Nice! Even number entered.");
-console.log(`Total tries: ${tries}`);
+
+
+// 17. Print only first 3 odd numbers from 1 to 20
+// Use loop. Stop with break after 3 odd prints.
+
+
+// 18. Ask user 5 numbers. Count how many are positive
+// Use loop + condition + counter.
+
+
+// 19. ATM Simulator – Allow 3 withdrawals
+// Start with ₹1000 balance. Ask withdrawal amount 3 times.
+// If enough balance → deduct
+// Else → print “Insufficient balance”
