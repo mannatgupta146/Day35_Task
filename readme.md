@@ -1,75 +1,71 @@
 # Day 35 Task | Cohort 2.0
 
-This file contains all the **JavaScript exercises and experiments** I completed as part of **Day 33** in **Sheryians Coding School Cohort 2.0**.  
-It focuses on **loops** and **conditional statements**, practiced through simple programs and logical exercises directly in the browser console.
+This file contains all the **JavaScript exercises and experiments** I completed as part of **Day 35** in **Sheryians Coding School Cohort 2.0**.  
+It focuses on **loops**, **conditionals**, and **user input handling**, with slightly more logical and interactive problems tested directly in the browser console.
 
-📌 **About the Day 33 Task**  
-Day 33 was focused on **JavaScript loops and conditionals** — understanding how to repeat actions using different loop types and how to make decisions in code using conditional statements.  
-The goal was to get comfortable with **loop control flow**, **user input validation**, and **decision-making logic** in JavaScript.
+📌 **About the Day 35 Task**  
+Day 35 was focused on applying **JavaScript loops and conditionals** to real-world style logical problems.  
+The goal was to go beyond basic syntax and practice **problem-solving using loops**, **validations**, and **decision-making** with user inputs.
 
 ✨ **Task Description**
 
 | **Feature** | **Description** |
 |--------------|-----------------|
-| **For Loop** | Practiced looping structures to print sequences, numbers, and patterns. |
-| **While / Do...While Loops** | Explored different loop types and their use cases. |
-| **Conditional Statements** | Implemented decision-making using **if**, **else if**, **else**, **ternary**, and **switch**. |
-| **User Input Validation** | Used **prompt()**, **Number()**, and **isNaN()** to handle and validate user inputs. |
-| **Practical Examples** | Created small exercises like voting eligibility, password validation, and multiplication tables. |
-| **Loop Logic** | Used counters, conditions, and iterations to solve simple numerical problems. |
+| **While & For Loops** | Used for repetition and iteration over user inputs and numeric ranges. |
+| **Conditional Logic** | Implemented logical decisions using **if**, **else if**, and **else** statements. |
+| **User Input Handling** | Used **prompt()**, **Number()**, and **isNaN()** to take and validate user inputs. |
+| **Practical Scenarios** | Created logical mini-programs like password validation, ATM simulation, and counting logic. |
+| **Break & Continue** | Applied loop control statements for precise iteration handling. |
+| **Counters & Accumulators** | Used variables to count occurrences or accumulate sums dynamically. |
 
 🛠️ **Technologies Used**  
-- **JavaScript** – Core syntax, loops, conditionals, and user input handling  
-- **Browser Console** – For running and testing the code outputs  
-- **HTML (optional)** – Used to embed and test scripts interactively  
+- **JavaScript** – Loops, conditionals, and user input handling  
+- **Browser Console** – For interactive execution and output testing  
+- **HTML (optional)** – For embedding and testing scripts  
 
 ## 🧩 Practice Questions
 
-### Level 1 – Pure Beginner Practice
+### Level 2 – Slightly Tougher but Logical
 
-1. **Print numbers from 1 to 10**  
-   Uses a simple `for` loop to print numbers sequentially.
+11. **Allow only 3 attempts to enter correct password**  
+    Checks for correct input within 3 tries. Locks account if incorrect all three times.
 
-2. **Print only even numbers from 1 to 20**  
-   Checks for even numbers using the modulus operator `%`.
+12. **Ask user for words until they type “stop” and count how many times “yes” appeared**  
+    Demonstrates string comparison, loop continuation, and counter increment logic.
 
-3. **Print numbers from 10 to 1**  
-   Demonstrates decrementing loops.
+13. **Print numbers divisible by 7 from 1 to 50**  
+    Uses modulo operator `%` to filter divisible numbers.
 
-4. **Print the word "yes" 5 times**  
-   Simple repetition using a `for` loop.
+14. **Sum of all odd numbers from 1 to 30**  
+    Adds all odd numbers and displays the total using an accumulator variable.
 
-5. **Check numbers from 1 to 20 if they are odd or even**  
-   Uses conditionals with string interpolation for clear output.
+15. **Keep asking number until user enters an even number**  
+    Uses a continuous loop and input validation to check for even input.
 
-6. **Ask the user for a number and check if it’s positive or negative**  
-   Handles both positive and negative input values.
+16. **Print numbers between two user inputs**  
+    Takes start and end values from the user and prints numbers in the given range.
 
-7. **Ask user’s age and check voting eligibility**  
-   Includes input validation for empty or non-numeric values.
+17. **Print only first 3 odd numbers from 1 to 20**  
+    Uses a counter and `break` statement to stop loop after 3 odd numbers.
 
-8. **Print the multiplication table of 5**  
-   Prints the table up to 10 using a loop.
+18. **Ask user 5 numbers and count how many are positive**  
+    Demonstrates counting based on user input using a `while` loop.
 
-9. **Count how many numbers between 1 and 15 are greater than 8**  
-   Demonstrates use of counters and conditional checking inside a loop.
-
-10. **Ask user for password and print access status**  
-    Compares user input with a stored password, includes empty and cancel checks.
-
+19. **ATM Simulator – Allow 3 withdrawals**  
+    Simulates ATM transactions by deducting withdrawal amounts and checking balance validity.
 
 📖 **Learning Outcome**  
 Through this task, I learned how to:  
-- Use **for**, **while**, **do...while**, **forEach**, **for...in**, and **for...of** loops  
-- Implement **conditional statements** using **if-else**, **ternary**, and **switch**  
-- Validate user input using **trim()**, **isNaN()**, and **Number()**  
-- Understand **loop counters**, **increment/decrement operations**, and **nested logic**  
-- Apply loops in real-world logic (e.g., counting, tables, validation checks)  
-- Practice clean and readable JavaScript structure  
+- Use **while** and **for** loops effectively in logical problems  
+- Apply **break** and **continue** for controlled loop flow  
+- Handle and validate **user input** correctly using **trim()**, **isNaN()**, and **Number()**  
+- Use **counters** and **accumulators** to track occurrences and sums  
+- Simulate **real-life scenarios** like password attempts and ATM withdrawals  
+- Write **clean, readable, and error-handled JavaScript code**
 
 🌟 **Acknowledgement**  
 This task was completed as part of **Sheryians Coding School Cohort 2.0** under the guidance of **Harsh Bhaiya**.  
 
-It helped me strengthen my understanding of **looping structures**, **conditional logic**, and **input handling** in JavaScript through practical exercises.
+It helped me strengthen my understanding of **loop-based logic**, **user validation**, and **conditional problem-solving** through practical and interactive examples.
 
 ---
